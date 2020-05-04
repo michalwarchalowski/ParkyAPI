@@ -36,7 +36,7 @@ namespace ParkyAPI
             services.AddControllers();
             services.AddAutoMapper(typeof(ParkyMappings));
             services.AddSwaggerGen(options => {
-                options.SwaggerDoc("ParkyOpenAPISpecNP",
+                options.SwaggerDoc("ParkyOpenAPISpec",
                     new Microsoft.OpenApi.Models.OpenApiInfo()
                     {
                         Title = "Parky API National Park",
@@ -51,19 +51,19 @@ namespace ParkyAPI
                     });
 
 
-                options.SwaggerDoc("ParkyOpenAPISpecTrails",
-                  new Microsoft.OpenApi.Models.OpenApiInfo()
-                  {
-                      Title = "Parky API Trails",
-                      Version = "1",
-                      Description = "Udemy Parky API Trails",
+                //options.SwaggerDoc("ParkyOpenAPISpecTrails",
+                //  new Microsoft.OpenApi.Models.OpenApiInfo()
+                //  {
+                //      Title = "Parky API Trails",
+                //      Version = "1",
+                //      Description = "Udemy Parky API Trails",
                  
-                      License = new Microsoft.OpenApi.Models.OpenApiLicense()
-                      {
-                          Name = "MIT License",
-                          Url = new Uri("https://en.wikipedia.org/wiki/MIT_License")
-                      }
-                  });
+                //      License = new Microsoft.OpenApi.Models.OpenApiLicense()
+                //      {
+                //          Name = "MIT License",
+                //          Url = new Uri("https://en.wikipedia.org/wiki/MIT_License")
+                //      }
+                //  });
 
                 var xmlCommentFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
                 var cmlCommentsFullPath = Path.Combine(AppContext.BaseDirectory, xmlCommentFile);
@@ -88,8 +88,8 @@ namespace ParkyAPI
             app.UseHttpsRedirection();
             app.UseSwagger();
             app.UseSwaggerUI(options => {
-                options.SwaggerEndpoint("/swagger/ParkyOpenAPISpecNP/swagger.json", "Parky API NP");
-                options.SwaggerEndpoint("/swagger/ParkyOpenAPISpecTrails/swagger.json", "Parky API Trails");
+                options.SwaggerEndpoint("/swagger/ParkyOpenAPISpec/swagger.json", "Parky API NP");
+                //options.SwaggerEndpoint("/swagger/ParkyOpenAPISpecTrails/swagger.json", "Parky API Trails");
                 options.RoutePrefix = "";
             });
 
