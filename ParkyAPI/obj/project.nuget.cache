@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "iH+ZyNAeGxbLY/+SqfLqYU+wGVroNuATjAUtgoaIvSDkCB+mmuj8nBHgYcNrYBITECIbL9/4fskE3FVsYy60Rg==",
+  "dgSpecHash": "h20iF9Bnr6SKtmz3BYZl9Kng9/5dVWivLoK3Y5CZWitOm2FVpfYqaP7qV191jfwajmcmpyxcpVORjDc8jr1TDw==",
   "success": true,
   "projectFilePath": "D:\\c#\\WEBAPI\\APIParky\\ParkyAPI\\ParkyAPI\\ParkyAPI.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,7 @@
     "C:\\Users\\micha\\.nuget\\packages\\microsoft.aspnetcore.mvc.abstractions\\2.0.0\\microsoft.aspnetcore.mvc.abstractions.2.0.0.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\microsoft.aspnetcore.mvc.core\\2.0.0\\microsoft.aspnetcore.mvc.core.2.0.0.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.0.0-preview3-19153-02\\microsoft.aspnetcore.mvc.newtonsoftjson.3.0.0-preview3-19153-02.nupkg.sha512",
+    "C:\\Users\\micha\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\4.1.1\\microsoft.aspnetcore.mvc.versioning.4.1.1.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\microsoft.aspnetcore.razor.runtime\\2.2.0\\microsoft.aspnetcore.razor.runtime.2.2.0.nupkg.sha512",

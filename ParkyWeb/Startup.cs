@@ -29,6 +29,8 @@ namespace ParkyWeb
             services.AddHttpClient();
             services.AddScoped<ITrailRepository, TrailRepository>();
             services.AddScoped<INationalParkRepository, NationalParkRepository>();
+         
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
