@@ -15,7 +15,7 @@ namespace ParkyAPI.Controllers
     [ApiController]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     //[ApiExplorerSettings(GroupName = "ParkyOpenAPISpecTrails")]
-    public class TrailsController : Controller
+    public class TrailsController : ControllerBase
     {
         private readonly ITrailRepository _trailRepo;
         private readonly IMapper _mapper;
@@ -67,8 +67,6 @@ namespace ParkyAPI.Controllers
         }
 
 
-
-
         [HttpGet("[action]/{nationalParkId:int}")]
         [ProducesResponseType(200, Type = typeof(TrailDto))]
         [ProducesResponseType(404)]
@@ -90,8 +88,6 @@ namespace ParkyAPI.Controllers
             return Ok(objDto);
 
         }
-
-
 
 
         [HttpPost]
@@ -116,7 +112,7 @@ namespace ParkyAPI.Controllers
                 ModelState.AddModelError("", $"Something went wrong when saving the record {trailObj.Name}");
                 return StatusCode(500, ModelState);
             }
-            return CreatedAtRoute("GetTrail", new { trailId = trailObj.Id }, trailObj);
+            return Ok();
         }
 
         [HttpPatch("{trailId:int}", Name = "UpdateTrail")]

@@ -387,3 +387,5 @@ D:\c#\WEBAPI\APIParky\ParkyAPI\ParkyWeb\obj\Debug\netcoreapp3.1\ParkyWeb.MvcAppl
 D:\c#\WEBAPI\APIParky\ParkyAPI\ParkyWeb\obj\Debug\netcoreapp3.1\ParkyWeb.MvcApplicationPartsAssemblyInfo.cache
 D:\c#\WEBAPI\APIParky\ParkyAPI\ParkyWeb\obj\Debug\netcoreapp3.1\Razor\Views\NationalParks\Index.cshtml.g.cs
 D:\c#\WEBAPI\APIParky\ParkyAPI\ParkyWeb\obj\Debug\netcoreapp3.1\Razor\Views\NationalParks\Upsert.cshtml.g.cs
+D:\c#\WEBAPI\APIParky\ParkyAPI\ParkyWeb\obj\Debug\netcoreapp3.1\Razor\Views\Trails\Index.cshtml.g.cs
+D:\c#\WEBAPI\APIParky\ParkyAPI\ParkyWeb\obj\Debug\netcoreapp3.1\Razor\Views\Trails\Upsert.cshtml.g.cs
